@@ -1,0 +1,25 @@
+Actualizar :
+
+git add .
+git commit -a -m "mensaje"
+
+To watch how's going :
+
+git update-server-info
+git status
+
+
+To push in the branch
+
+git remote add origin or the name of your config URL OF THE REPOSITORY
+EX:
+git remote add jsonfile https://github.com/MathiasHidalgo/git-proof
+
+git push jsonfile branch of you want to 
+
+--git branch -a // to watch every branches of your fork
+
+EX : 
+git push jsonfile master
+
+and that's all.
